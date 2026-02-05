@@ -30,7 +30,8 @@ public enum ERFrameProperties implements StringRepresentable {
     AMBER_EYE,
     ARCHAIC_EYE,
     QUEENS_EYE,
-    BLOSSOM_EYE;
+    BLOSSOM_EYE,
+    ELDRITCH_EYE;
 
     public String toString() {
         return this.getSerializedName();
@@ -61,6 +62,7 @@ public enum ERFrameProperties implements StringRepresentable {
             case ARCHAIC_EYE -> "archaic_eye";
             case QUEENS_EYE -> "queens_eye";
             case BLOSSOM_EYE -> "blossom_eye";
+            case ELDRITCH_EYE -> "eldritch_eye";
         };
     }
 
