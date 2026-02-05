@@ -1,0 +1,37 @@
+{
+  "parent": "endrem:root",
+  "display": {
+    "icon": {
+      "item": "endrem:amber_eye"
+    },
+    "title": {
+      "translate": "advancements.main.amber_eye.title"
+    },
+    "description": {
+      "translate": "advancements.main.amber_eye.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "amber_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endrem:amber_eye"
+              ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "amber_eye"
+    ]
+  ]
+}
