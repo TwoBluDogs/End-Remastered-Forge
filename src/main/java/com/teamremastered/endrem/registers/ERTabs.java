@@ -39,6 +39,7 @@ public class ERTabs {
                         output.accept(ERItems.WITCH_EYE.get());
                         output.accept(ERItems.UNDEAD_EYE.get());
                         output.accept(ERItems.EXOTIC_EYE.get());
+                        output.accept(ERItems.AETHER_EYE.get());
 
                         output.accept(ERItems.CRYPTIC_EYE.get());
 

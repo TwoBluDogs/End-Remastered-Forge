@@ -286,6 +286,22 @@
     "eye=ominous_eye,facing=west": {
       "model": "endrem:block/frames/ominous_frame_filled",
       "y": 90
+    },
+
+    "eye=aether_eye,facing=east": {
+      "model": "endrem:block/frames/aether_frame_filled",
+      "y": 270
+    },
+    "eye=aether_eye,facing=north": {
+      "model": "endrem:block/frames/aether_frame_filled",
+      "y": 180
+    },
+    "eye=aether_eye,facing=south": {
+      "model": "endrem:block/frames/aether_frame_filled"
+    },
+    "eye=aether_eye,facing=west": {
+      "model": "endrem:block/frames/aether_frame_filled",
+      "y": 90
     }
   }
 }

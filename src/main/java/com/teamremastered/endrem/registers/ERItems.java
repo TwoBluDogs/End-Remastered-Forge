@@ -36,6 +36,8 @@ public class ERItems {
     public static final RegistryObject<Item> GUARDIAN_EYE = ITEMS.register("guardian_eye", () -> new EREnderEye(new Item.Properties().fireResistant().rarity(Rarity.RARE).stacksTo(16)));
     public static final RegistryObject<Item> MAGICAL_EYE = ITEMS.register("magical_eye", () -> new EREnderEye(new Item.Properties().fireResistant().rarity(Rarity.RARE).stacksTo(16)));
     public static final RegistryObject<Item> WITHER_EYE = ITEMS.register("wither_eye", () -> new EREnderEye(new Item.Properties().fireResistant().rarity(Rarity.EPIC).stacksTo(16)));
+    public static final RegistryObject<Item> AETHER_EYE = ITEMS.register("aether_eye", () -> new EREnderEye(new Item.Properties().fireResistant().rarity(Rarity.RARE).stacksTo(16)));
+
 
     // crafts
     public static final RegistryObject<Item> WITCH_EYE = ITEMS.register("witch_eye", () -> new EREnderEye(new Item.Properties().fireResistant().rarity(Rarity.COMMON).stacksTo(16)));
