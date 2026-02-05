@@ -38,6 +38,7 @@ public class ERTabs {
                         output.accept(ERItems.GUARDIAN_EYE.get());
                         output.accept(ERItems.MAGICAL_EYE.get());
                         output.accept(ERItems.WITHER_EYE.get());
+                        output.accept(ERItems.BLOSSOM_EYE.get());
 
                         output.accept(ERItems.WITCH_EYE.get());
                         output.accept(ERItems.UNDEAD_EYE.get());
