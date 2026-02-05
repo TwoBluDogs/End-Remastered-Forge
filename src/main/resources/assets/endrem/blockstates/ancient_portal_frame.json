@@ -270,6 +270,22 @@
     "eye=cryptic_eye,facing=west": {
       "model": "endrem:block/frames/cryptic_frame_filled",
       "y": 90
+    },
+
+    "eye=ominous_eye,facing=east": {
+      "model": "endrem:block/frames/ominous_frame_filled",
+      "y": 270
+    },
+    "eye=ominous_eye,facing=north": {
+      "model": "endrem:block/frames/ominous_frame_filled",
+      "y": 180
+    },
+    "eye=ominous_eye,facing=south": {
+      "model": "endrem:block/frames/ominous_frame_filled"
+    },
+    "eye=ominous_eye,facing=west": {
+      "model": "endrem:block/frames/ominous_frame_filled",
+      "y": 90
     }
   }
 }

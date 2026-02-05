@@ -44,6 +44,8 @@ public class ERTabs {
 
                         output.accept(ERItems.WITCH_PUPIL.get());
                         output.accept(ERItems.UNDEAD_SOUL.get());
+
+                        output.accept(ERItems.OMINOUS_EYE.get());
                         System.out.println("Items Registered");
                     } )
                     .build()
